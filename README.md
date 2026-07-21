@@ -66,8 +66,9 @@ I'm Risto, a hobbyist coder.
 ## Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=RistoQ&show_icons=true&theme=default" alt="GitHub stats" height="165" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=RistoQ&layout=compact&theme=default" alt="Top languages" height="165" />
+  <a href="https://github.com/brunobritodev/awesome-github-stats">
+    <img src="https://awesome-github-stats.azurewebsites.net/user-stats/RistoQ?cardType=github&theme=dark&show_icons=true" alt="GitHub stats" />
+  </a>
 </p>
 
 ---
