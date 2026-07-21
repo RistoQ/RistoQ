@@ -1,11 +1,13 @@
-# About
-
-<!-- Replace this with your own GIF — terminal demo, coding loop, whatever you like -->
 <p align="center">
-  <img src="https://raw.githubusercontent.com/RistoQ/RistoQ/main/demo.gif" alt="demo" width="600" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D3B2E,50:1B6B55,100:2A9D8A&height=250&text=RistoQ&fontSize=60&fontColor=ffffff" alt="RistoQ banner" />
 </p>
 
-I'm Risto, a hobbyist coder.
+# About
+
+Hi I'm Risto, a hobbyist coder.
+
+[![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat&logo=github)](https://github.com/RistoQ)
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat&logo=linkedin)](https://www.linkedin.com/in/risto-kuntro-984912420/)
 
 ---
 
@@ -49,6 +51,9 @@ I'm Risto, a hobbyist coder.
 ![Portainer](https://img.shields.io/badge/-Portainer-13BEF9?style=flat&logo=portainer&logoColor=white)
 ![WireGuard](https://img.shields.io/badge/-WireGuard-88171A?style=flat&logo=wireguard&logoColor=white)
 ![Tailscale](https://img.shields.io/badge/-Tailscale-242424?style=flat&logo=tailscale&logoColor=white)
+![Fusion 360](https://img.shields.io/badge/-Fusion%20360-0696D7?style=flat&logo=autodesk&logoColor=white)
+![OrcaSlicer](https://img.shields.io/badge/-OrcaSlicer-00A86B?style=flat&logo=orcaslicer&logoColor=white)
+![3D Printing](https://img.shields.io/badge/-3D%20Printing-555555?style=flat&logo=prusa&logoColor=white)
 
 ### Systems & Networking
 
@@ -66,17 +71,8 @@ I'm Risto, a hobbyist coder.
 ## Stats
 
 <p align="center">
-  <a href="https://github.com/brunobritodev/awesome-github-stats">
-    <img src="https://awesome-github-stats.azurewebsites.net/user-stats/RistoQ?cardType=github&theme=dark&show_icons=true" alt="GitHub stats" />
-  </a>
+  <img src="https://github-readme-stats-fast.vercel.app/api?username=RistoQ&show_icons=true&theme=gotham" alt="GitHub stats" />
 </p>
-
----
-
-## Find me
-
-[![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat&logo=github)](https://github.com/RistoQ)
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat&logo=linkedin)](https://www.linkedin.com/in/risto-kuntro-984912420/)
 
 ---
 
