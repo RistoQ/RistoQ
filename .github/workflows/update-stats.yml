@@ -1,0 +1,32 @@
+name: Update Stats
+
+on:
+  schedule:
+    - cron: '0 0 * * *'      # runs daily at midnight UTC
+  workflow_dispatch:           # lets you trigger it manually
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Update README timestamp
+        run: |
+          if [[ "$OSTYPE" == "darwin"* ]]; then
+            sed -i '' "s/<!-- last-updated -->.*<!-- \/last-updated -->/<!-- last-updated -->$(date -u '+%Y-%m-%d %H:%M UTC')<!-- \/last-updated -->/" README.md
+          else
+            sed -i "s/<!-- last-updated -->.*<!-- \/last-updated -->/<!-- last-updated -->$(date -u '+%Y-%m-%d %H:%M UTC')<!-- \/last-updated -->/" README.md
+          fi
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Auto-update stats timestamp"
+            git push
+          fi
