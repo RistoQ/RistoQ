@@ -2,8 +2,11 @@ name: Update Stats
 
 on:
   schedule:
-    - cron: '0 0 * * *'      # runs daily at midnight UTC
-  workflow_dispatch:           # lets you trigger it manually
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   update-readme:
@@ -13,11 +16,7 @@ jobs:
 
       - name: Update README timestamp
         run: |
-          if [[ "$OSTYPE" == "darwin"* ]]; then
-            sed -i '' "s/<!-- last-updated -->.*<!-- \/last-updated -->/<!-- last-updated -->$(date -u '+%Y-%m-%d %H:%M UTC')<!-- \/last-updated -->/" README.md
-          else
-            sed -i "s/<!-- last-updated -->.*<!-- \/last-updated -->/<!-- last-updated -->$(date -u '+%Y-%m-%d %H:%M UTC')<!-- \/last-updated -->/" README.md
-          fi
+          sed -i "s/<!-- last-updated -->.*<!-- \/last-updated -->/<!-- last-updated -->$(date -u '+%Y-%m-%d %H:%M UTC')<!-- \/last-updated -->/" README.md
 
       - name: Commit and push if changed
         run: |
@@ -28,5 +27,5 @@ jobs:
             echo "No changes to commit"
           else
             git commit -m "Auto-update stats timestamp"
-            git push
+            git push origin main
           fi
