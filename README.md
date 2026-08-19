@@ -78,4 +78,4 @@ Hi I'm Risto, a hobbyist coder.
 
 ![Visitor count](https://visitor-badge.laobi.icu/badge?page_id=RistoQ.RistoQ)
 
-<!-- last-updated -->2026-08-18 01:23 UTC<!-- /last-updated -->
+<!-- last-updated -->2026-08-19 01:25 UTC<!-- /last-updated -->
