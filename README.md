@@ -68,6 +68,14 @@ Hi I'm Risto, a hobbyist coder.
 
 ---
 
+## Projects
+
+| Project | About | Stack |
+| :--- | :--- | :--- |
+| <h3>[browser-volume-mixer](https://github.com/RistoQ/browser-volume-mixer)</h3> | A Firefox WebExtension that works like the Windows Volume Mixer: one master volume slider plus a per-tab slider, percentage box and mute toggle for every tab playing audio. Tabs can be boosted to 200 % and the volume you give a site is remembered.<br><br>[⬇ Download the signed `.xpi`](https://github.com/RistoQ/browser-volume-mixer/releases/latest) | ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)<br>![Firefox](https://img.shields.io/badge/-Firefox-FF7139?style=flat&logo=firefox-browser&logoColor=white) |
+
+---
+
 ## Stats
 
 <p align="center">
